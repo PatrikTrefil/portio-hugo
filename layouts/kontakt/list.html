@@ -54,10 +54,12 @@
               <img src="{{ "images/contact/location.svg" | absURL }}" alt="location" />
             </div>
           </div>
-          <h4>Adresa Kanceláří</h4>
-          <p>
-            {{ $address.address }}
-          </p>
+          <h4>Adresa kanceláří</h4>
+          <a href="{{ $address.link }}" alt="link to google maps">
+            <p>
+              {{ $address.address }}
+            </p>
+          </a>
         </div>
       </div>
       <div class="col-lg-4">
